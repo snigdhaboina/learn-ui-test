@@ -51,6 +51,7 @@ public class pdfUtil {
     public void programTesting() {
         String s = "grass is green";
         char s1[] = s.toCharArray();
+        char s2;
         int l = s.length();
         int[] f = new int[l];
         for (int i = 0; i < s.length(); i++) {
