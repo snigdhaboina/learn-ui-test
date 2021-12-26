@@ -12,13 +12,6 @@ import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class pdfUtil {
 
@@ -51,7 +44,6 @@ public class pdfUtil {
     public void programTesting() {
         String s = "grass is green";
         char s1[] = s.toCharArray();
-        char s2;
         int l = s.length();
         int[] f = new int[l];
         for (int i = 0; i < s.length(); i++) {
